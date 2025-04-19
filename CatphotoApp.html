@@ -1,0 +1,71 @@
+<!--All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+
+<!DOCTYPE html> tells browsers that the document is an HTML5 document which is the latest version of HTML.
+
+Add this declaration as the first line of the code-->
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>CAT PHOTO APP</title>
+  </head>
+    <body>
+        <main>
+        <h1>CatPhotoApp</h1><!--header elemnt-->
+        <section>
+        <H2>CatPhotos</H2>
+        <!-- Add link to cat photos-->
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute Cat </a>Photo<!--paragragh elemnt-->online!
+        </p>
+      <p> see more <a href="https://freecatphotoapp.com" target="_blank">here is a website to look for more photos</a>  in our gallery</p><!-- anchor element is used to turn a text into alink -->
+
+     <a href="https://freecatphotoapp.com "><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
+    </section>
+    <section> <!-- section element is used to define sections in documents  such as header ,footer or any other section of the documents-->
+        <h2>cat lists</h2>
+          <h3> Things cats love:</h3>
+          <ul><!-- ul means unordered list<-->
+            <li> catnip</li><!-- li means list-->
+            <li> laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+          <figure>
+           
+            <!-- The <figure> element in HTML acts as a container for self-contained content like illustrations, diagrams, photos, or code snippets,
+             and is typically referenced as a single unit within a document.
+              It's designed to be movable and shouldn't disrupt the main flow of the text if it's relocated.
+             The <figcaption> element can be used within a <figure> to provide a caption or description for the content. -->
+          <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate."></a>
+        <figcaption>This is called <em>lasagna</em> which is really favorite of cats like Garfield</figcaption>  <!-- To place emphasis on 
+          a specific word or phrase, 
+          you can use the em element.-->
+        </figure>
+        <figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>Thunder</li>
+          <li>Other cats</li>
+          <li>flea treatment</li>
+        </ol>
+        </figure>
+        <figure>
+          <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Bunch of kitties"></a>
+          <figcaption> Such a <strong><em>lovely</em></strong> of kittens</figcaption><!--The strong element is used to indicate that some text is of strong importance or urgent.
+          -->
+        </figure>
+    </section> 
+     <!-- img elemnt with src and alt attributes. src for sourcing the picture and alter is used to make the picture readable if the img fails to load-->
+     <!--target attribute is used to make a link open in another tab ,it is used inside anchor elemnt .-->
+     <!-- anchor element is really funny and really sensitive casue we can modify the element with trarget attribute
+    it is all about turning a text into a link and the target attriburte is used to make link open in another tab-->
+        </main>
+        <footer>
+          <p>No copyright - <a href="https://www.freecodecamp.org">freecodecamp.org</p></a>
+        </footer>
+    </body>
+</html> 
+<!--Notice that the entire contents of the page are nested within an html element. The html element is the root element of an HTML page and wraps all content on the page.
+
+You can also specify the language of your page by adding the lang attribute to the html element.
+
+Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.-->
